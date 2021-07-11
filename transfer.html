@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Transfer Money</title>
+</head>
+
+<body>
+    <div class="container">
+        <button class="button" onclick="location.href='index.html'">HOME</button>
+        <div class="form-container">
+            <form class="form" action="transfer.inc.php" method="post">
+                <h2 class="title">Transfer Money</h2>
+                <div class="input-field">
+                    <label for="sender">SENDER</label>
+                    <input type="text" name="sender" value="" placeholder="    Sender" required><br><br>
+                </div>
+                <div class="input-field">
+                    <label for="reciever">RECIEVER</label>
+                    <input type="text" name="reciever" value="" placeholder=" Reciever"required><br><br>
+                </div>
+                <div class="input-field">
+                    <label for="amount">AMOUNT</label>
+                    <input type="number" name="amount" value="" placeholder="    Amount" required><br><br>
+                </div>
+                <input type="submit" name="submitted" value="Transfer" class='btn'>
+            </form>
+        </div>
+    </div>
+</body>
+<footer class="footer">
+    <p>Created by Faris</p>
+</footer>
+
+</html>
