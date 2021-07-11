@@ -45,7 +45,7 @@ if ($resultcheck > 0) {
         </section>
     </body>
     <footer class="footer">
-        <p>Created by Faris</p>
+        <p>&#169 Copyright - Faris</p>
     </footer>
 
     </html>

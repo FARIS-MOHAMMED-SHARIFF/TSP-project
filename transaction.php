@@ -46,6 +46,9 @@ if ($resultcheck > 0) {
             </table>
         </section>
     </body>
+    <footer class="footer">
+        <p>&#169 Copyright - Faris</p>
+    </footer>
 
     </html>
 <?php
