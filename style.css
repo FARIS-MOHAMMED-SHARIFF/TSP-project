@@ -34,6 +34,7 @@ header{
 .mainheader nav{
   /* width:250px; */
   /* float: left; */
+  
   display:flex;
   margin-right: 18px;
 }
@@ -70,7 +71,7 @@ main .left{
   position : relative;
   border: 3px solid #42FBF2;
   z-index:1;
-  background:rgb(223, 251, 253)
+  /* background:rgb(223, 251, 253) */
 }
 .left button:hover{
   /* color:#fff; */
@@ -136,11 +137,12 @@ main .left{
 .footer{
   width:100vw;
   height: 30px;
-  background-color: #0b3353;
+  /* background-color: #0b3353; */
+  background-color: #4dc3d8cc;
   margin-top: auto;
 }
 .footer p{
-  color: #fff;
+  color: hsl(0, 0%, 6%);
   font-size: 15px;
   text-transform: capitalize;
   text-align: center;
@@ -150,7 +152,8 @@ main .left{
   margin:1rem;
   border-radius: 5%;
   height:2.5rem;
-  background-color: hsl(177, 54%, 71%);
+  /* background-color: hsl(177, 54%, 71%); */
+  background-color: #5995fd;
   width: 6rem;
 }
 .container{
